@@ -113,6 +113,12 @@ img{
 
 @media screen and (max-width:992px) {
   /* banner  */
+  .container{
+    margin: 0 20px;
+  }
+  .banner{
+    margin-top: 20px;
+  }
   .banner-left h1 {
     font-size: 50px;
     font-weight: 500;
@@ -141,9 +147,13 @@ img{
 
 /* mobile */
 @media screen and (max-width: 768px) {
+  .container{
+    margin: 0 10px;
+  }
   .banner{
     flex-direction: column;
     text-align: center;
+    margin-top: 10px;
   }
   .banner .banner-left{
     margin-bottom: 50px;
@@ -153,5 +163,8 @@ img{
   .banner .banner-left p{
     max-width: 100%;
     margin: 15px;
+  }
+  .upcomming-matches-right{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
