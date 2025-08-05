@@ -1,41 +1,96 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 /* custom style  */
-.container{
-    max-width: 1280px;
-    margin: auto;
+.container {
+  max-width: 1280px;
+  margin: auto;
 }
-.banner{
-    display: flex;
-    align-items:center ;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    margin: 50px auto;
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin: 50px auto;
 }
 .banner-left {
-    padding-left: 35px;
+  padding-left: 35px;
 }
-.banner-left h1{
-    font-size: 70px;
-    font-weight: bold;
-    margin: 15px 0;
+.banner-left h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 70px;
+  margin: 15px 0;
 }
-.banner-left p{
-    color: #FFFFFF;
-} 
-.btn{
-    background-color: #DD0000;
-    padding: 15px 25px;
+.banner-left p {
+  color: #ffffff;
+  max-width: 65%;
+}
+.btn {
+  background-color: #dd0000;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  margin-top: 15px;
+}
+.banner-right img {
+  display: block;
+}
+/* upcomming matches  */
+.card .card-body{
+  padding: 10px;
+}
+.upcomming-matches{
+    display: flex;
+    flex: 1;
+    /* background-color: aqua; */
+    gap: 20px;
+}
+.upcomming-matches-left{
+    background-color: black;
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     border-radius: 8px;
-    font-weight: 600;
-    color: #FFFFFF;
-    border: none;
-    margin-top: 15px;
+    padding: 20px;
+
 }
-.banner-right img{
-    display: block;
+.cmn-button{
+    background-color: #ffffff;
+    color: black;
+    
+}
+.upcomming-matches-right{
+    /* background-color: blue; */
+}
+.upcomming-matches-right, .card img{
+  height: 180px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.card button{
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 13px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.card h2{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.card-bottom{
+  display: flex;
+  gap: 20px;
+  color: rgb(78, 76, 76);
 }
